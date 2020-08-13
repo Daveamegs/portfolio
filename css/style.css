@@ -1,7 +1,44 @@
 .textBackground{
     height: 33em;
     background-image: url("../images/jefferson_santos_coding_medium.jpg");
+    filter: blur(4px);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center-content{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80%;
+    padding: 1em;
 }
 .welcomeText{
+    /* position: relative;
+    z-index: 2000; */
+    /* background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center; */
+}
 
+ul li{
+    margin-bottom: 2em;
 }
