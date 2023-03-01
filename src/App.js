@@ -1,11 +1,14 @@
 import "./App.css";
+import Intro from "./components/header/Intro";
+import About from "./about/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>Hello World</div>
-      </header>
+    <div>
+      <Intro />
+      <main>
+        <About />
+      </main>
     </div>
   );
 }

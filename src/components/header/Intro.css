@@ -1,0 +1,53 @@
+.h-intro {
+  display: flex;
+  height: 100vh;
+  /* background-color: aqua; */
+  /* clip-path: polygon(64% 0, 0 64%, 1% 0); */
+}
+
+.h-intro-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: blueviolet; */
+}
+
+.clip-path {
+  height: 100%;
+  width: 100%;
+  clip-path: circle(74.9% at 83% 69%);
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.h-intro-left-wrapper {
+  height: 100%;
+  /* background-color: white; */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: center;
+  z-index: 1;
+}
+
+.h-intro-right {
+  flex: 1;
+  position: relative;
+}
+
+.h-intro-right-profile-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: right;
+  overflow: hidden;
+}
+
+.profile-image {
+  width: 70%;
+  /* height: 100%; */
+  border-radius: 30% 0 0 0;
+  object-fit: cover;
+}
