@@ -1,0 +1,31 @@
+.about {
+  display: flex;
+  height: 80vh;
+  padding: 50px;
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-left-prof-img {
+  width: inherit;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.about-left-prof-img > img {
+  width: 90%;
+}
+
+.about-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
