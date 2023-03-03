@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profileImage from "../images/leilani-angel-unsplash.jpg";
+import profileImage from "../../images/leilani-angel-unsplash.jpg";
 
 const about = () => {
   return (

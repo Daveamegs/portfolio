@@ -1,6 +1,8 @@
 import "./App.css";
 import Intro from "./components/header/Intro";
-import About from "./about/About";
+import About from "./components/about/About";
+import Skills from "./components/skills/Skills";
+import Education from "./components/education/Education";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Intro />
       <main>
         <About />
+        <Skills />
+        <Education />
       </main>
     </div>
   );

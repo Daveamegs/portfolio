@@ -1,0 +1,40 @@
+.skills {
+  display: flex;
+  padding: 50px;
+}
+
+.skills-left {
+  flex: 1;
+}
+
+.skills-right {
+  flex: 1;
+}
+
+/* Skillsbar Styling */
+
+.skillsbar {
+  height: 70px;
+  width: 100%;
+  max-width: 600px;
+  /* background-color: aqua; */
+}
+
+.skillsbar-language {
+  margin-bottom: 0px;
+}
+
+.skillsbar-wrapper {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skillsbar-skills {
+  text-align: right;
+  color: #fff;
+}
+
+.html {
+  width: 90%;
+  background-color: #a38;
+}
