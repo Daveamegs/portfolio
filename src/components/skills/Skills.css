@@ -1,6 +1,8 @@
 .skills {
   display: flex;
-  padding: 50px;
+  padding: 0px 50px;
+  margin-top: 30px;
+  /* background-color: burlywood; */
 }
 
 .skills-left {
@@ -12,7 +14,6 @@
 }
 
 /* Skillsbar Styling */
-
 .skillsbar {
   height: 70px;
   width: 100%;
@@ -37,4 +38,49 @@
 .html {
   width: 90%;
   background-color: #a38;
+}
+
+.css {
+  width: 70%;
+  background-color: rgb(59, 42, 218);
+}
+
+.javascript {
+  width: 50%;
+  background-color: rgb(238, 87, 17);
+}
+
+.jquery {
+  width: 30%;
+  background-color: #a38;
+}
+
+.reactjs {
+  width: 50%;
+  background-color: #a38;
+}
+
+.python {
+  width: 50%;
+  background-color: rgb(223, 106, 10);
+}
+
+.flask {
+  width: 60%;
+  background-color: rgb(192, 158, 9);
+}
+
+.postgresql {
+  width: 60%;
+  background-color: rgb(6, 123, 233);
+}
+
+.mysql {
+  width: 60%;
+  background-color: rgb(29, 199, 13);
+}
+
+.php {
+  width: 30%;
+  background-color: rgb(21, 35, 160);
 }
