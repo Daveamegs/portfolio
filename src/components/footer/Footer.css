@@ -1,0 +1,21 @@
+.footer {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  /* align-items: center; */
+  position: relative;
+}
+
+.footer hr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-copy {
+  /* position: absolute; */
+  margin: 0 auto;
+  left: 45%;
+  top: 80%;
+}

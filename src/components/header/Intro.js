@@ -7,10 +7,10 @@ const Intro = () => {
   return (
     <header className="h-intro">
       <div className="h-intro-left">
+        <Social />
         <div className="h-intro-left-wrapper">
           <h2 className="h-intro-left-hello">Hello, Welcome, My name is</h2>
           <h1 className="h-intro-left-name">David K. Amegayibor</h1>
-          <Social />
           <div className="h-intro-title">
             <div className="h-intro-title-wrapper">
               <h2 className="h-intro-title-item">Web Developer</h2>

@@ -4,7 +4,7 @@ import "./Education.css";
 const Education = () => {
   return (
     <div className="education">
-      <h1>Education History</h1>
+      <h1 className="education-title">Education History</h1>
       <div className="education-wrapper">
         {/* Left Side of the Education Component */}
         <div className="education-left">
@@ -19,8 +19,7 @@ const Education = () => {
               log on the iol oojn jhvhf vghdty weRFYUI GHFVKIuilhtf gug u ukfyu
               i gi gigiug g fyfaALOEWIYE a as sksd fdsakhkjas a kjshdf ak
               dsdhjurrklaijf aljweehiha f;a ha fiagufgweigqeweofh a afh
-              asfagigfaf a aiugfa aba bjkakklav bava vb aovahv abavkbljav
-              jjrfruwjba a ba dgee
+              asfagigfaf a aiugfa aba
             </p>
           </div>
           <div className="education-degree-wrapper">
@@ -34,8 +33,7 @@ const Education = () => {
               log on the iol oojn jhvhf vghdty weRFYUI GHFVKIuilhtf gug u ukfyu
               i gi gigiug g fyfaALOEWIYE a as sksd fdsakhkjas a kjshdf ak
               dsdhjurrklaijf aljweehiha f;a ha fiagufgweigqeweofh a afh
-              asfagigfaf a aiugfa aba bjkakklav bava vb aovahv abavkbljav
-              jjrfruwjba a ba dgee
+              asfagigfaf
             </p>
           </div>
         </div>
@@ -67,8 +65,7 @@ const Education = () => {
               log on the iol oojn jhvhf vghdty weRFYUI GHFVKIuilhtf gug u ukfyu
               i gi gigiug g fyfaALOEWIYE a as sksd fdsakhkjas a kjshdf ak
               dsdhjurrklaijf aljweehiha f;a ha fiagufgweigqeweofh a afh
-              asfagigfaf a aiugfa aba bjkakklav bava vb aovahv abavkbljav
-              jjrfruwjba a ba dgee
+              asfagigfaf a aiugfa aba
             </p>
           </div>
 
@@ -84,8 +81,7 @@ const Education = () => {
               log on the iol oojn jhvhf vghdty weRFYUI GHFVKIuilhtf gug u ukfyu
               i gi gigiug g fyfaALOEWIYE a as sksd fdsakhkjas a kjshdf ak
               dsdhjurrklaijf aljweehiha f;a ha fiagufgweigqeweofh a afh
-              asfagigfaf a aiugfa aba bjkakklav bava vb aovahv abavkbljav
-              jjrfruwjba a ba dgee
+              asfagigfaf a aiugfa aba
             </p>
           </div>
           <div className="education-degree-wrapper">
