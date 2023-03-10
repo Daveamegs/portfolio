@@ -4,7 +4,7 @@ import "./Education.css";
 const Education = () => {
   return (
     <div className="education">
-      <h1 className="education-title">Education History</h1>
+      <h2 className="education-title">Education History</h2>
       <div className="education-wrapper">
         {/* Left Side of the Education Component */}
         <div className="education-left">

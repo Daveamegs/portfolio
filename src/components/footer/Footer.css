@@ -4,8 +4,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  /* align-items: center; */
-  position: relative;
+  /* position: relative; */
 }
 
 .footer hr {
@@ -14,7 +13,6 @@
 }
 
 .footer-copy {
-  /* position: absolute; */
   margin: 0 auto;
   left: 45%;
   top: 80%;

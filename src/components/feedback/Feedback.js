@@ -14,7 +14,7 @@ const Feedback = () => {
       </div>
       <div className="feedback-right">
         <form className="feedback-form">
-          <div className="full-name">
+          <div className="name-wrapper">
             <label for="fullName">Full Name</label> <br />
             <input
               type="text"
@@ -24,7 +24,7 @@ const Feedback = () => {
             />
           </div>
 
-          <div className="email">
+          <div className="email-wrapper">
             <label for="email">Email </label>
             <br />
             <input
@@ -40,7 +40,7 @@ const Feedback = () => {
             <br />
             <textarea
               cols="50"
-              rows="10"
+              rows="8"
               name="message"
               id="message"
               placeholder="Enter your message"

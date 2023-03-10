@@ -6,6 +6,6 @@
 
 .social .fa {
   font-size: 35px;
-  color: blue;
+  color: var(--my-black);
   margin-right: 15px;
 }

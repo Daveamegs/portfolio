@@ -37,8 +37,20 @@
   }
 } */
 
+:root {
+  --my-light-black: #292c35;
+  --my-black: #17181d;
+  --my-orange: #e09145;
+  --my-light-orange: #fcd9b8;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  background-color: var(--my-light-orange);
+  color: var(--my-black);
 }
