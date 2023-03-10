@@ -1,16 +1,16 @@
 import React from "react";
 import Social from "../social/Social";
 import "./Intro.css";
-import profileImage from "../../images/leilani-angel-unsplash.jpg";
+// import profileImage from "../../images/leilani-angel-unsplash.jpg";
 
 const Intro = () => {
   return (
     <header className="h-intro">
       <div className="h-intro-left">
+        <Social />
         <div className="h-intro-left-wrapper">
-          <h2 className="h-intro-left-hello">Hello, Welcome, My name is</h2>
+          <h2 className="h-intro-left-hello">Hello, My name is</h2>
           <h1 className="h-intro-left-name">David K. Amegayibor</h1>
-          <Social />
           <div className="h-intro-title">
             <div className="h-intro-title-wrapper">
               <h2 className="h-intro-title-item">Web Developer</h2>
@@ -27,7 +27,7 @@ const Intro = () => {
       <div className="h-intro-right">
         <div className="clip-path"></div>
         <div className="h-intro-right-profile-img">
-          <img src={profileImage} alt="Profile" className="profile-image" />
+          {/* <img src={profileImage} alt="Profile" className="profile-image" /> */}
         </div>
       </div>
     </header>

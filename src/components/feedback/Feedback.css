@@ -1,0 +1,56 @@
+.feedback {
+  display: flex;
+  height: 80vh;
+  padding: 30px 50px;
+  /* background-color: aqua; */
+}
+
+textarea {
+  resize: none;
+}
+
+.feedback-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 5px;
+  font-size: large;
+  appearance: none;
+  border: 1px solid #fff;
+  background-color: var(--my-light-orange);
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  background-color: #fff;
+  outline: none;
+  appearance: none;
+}
+
+.feedback-form .submit-wrapper button {
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--my-orange);
+  color: #fff;
+  box-shadow: 1px 1.5px var(--my-light-black);
+}
+
+.name-wrapper,
+.email-wrapper,
+.message-wrapper {
+  margin-bottom: 10px;
+}
