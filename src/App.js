@@ -5,18 +5,20 @@ import Skills from "./components/skills/Skills";
 import Education from "./components/education/Education";
 import Feedback from "./components/feedback/Feedback";
 import Footer from "./components/footer/Footer";
+import Top from "./components/Top";
 
 function App() {
   return (
     <div>
       <Intro />
-      <main>
+      <main className="main">
         <About />
         <Skills />
         <Education />
         <Feedback />
-        <Footer />
+        <Top />
       </main>
+      <Footer />
     </div>
   );
 }

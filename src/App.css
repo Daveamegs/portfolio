@@ -54,3 +54,7 @@ body {
   background-color: var(--my-light-orange);
   color: var(--my-black);
 }
+
+.main {
+  position: relative;
+}

@@ -46,7 +46,8 @@ textarea {
   border: none;
   background-color: var(--my-orange);
   color: #fff;
-  box-shadow: 1px 1.5px var(--my-light-black);
+  box-shadow: 1px 1.5px 3px var(--my-light-black);
+  cursor: pointer;
 }
 
 .name-wrapper,

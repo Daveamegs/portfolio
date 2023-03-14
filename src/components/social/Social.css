@@ -8,4 +8,5 @@
   font-size: 35px;
   color: var(--my-black);
   margin-right: 15px;
+  cursor: pointer;
 }
