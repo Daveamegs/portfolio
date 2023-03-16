@@ -1,6 +1,6 @@
 .about {
   display: flex;
-  height: 80vh;
+  min-height: 80vh;
   padding: 30px 50px;
   margin-top: 30px;
 }
@@ -29,4 +29,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Mobile Device Screen Styling */
+/* Mobile at 480px and below */
+
+@media only screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-left {
+    /* flex: none; */
+  }
 }

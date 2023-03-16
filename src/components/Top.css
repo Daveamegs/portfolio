@@ -13,3 +13,15 @@
   bottom: 50px;
   cursor: pointer;
 }
+
+/* Mobile Device Screen Styling */
+/* All Mobile Screen Sizes */
+
+@media only screen and (max-width: 768px) {
+  .to-top {
+    right: 20px;
+    bottom: 30px;
+    height: 35px;
+    width: 35px;
+  }
+}

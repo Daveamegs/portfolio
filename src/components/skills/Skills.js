@@ -7,28 +7,25 @@ const Skills = () => {
     <div className="skills">
       <h2 className="skills-title">Professional Skills</h2>
       <div className="skills-wrapper">
-        <div className="skills-left">
-          <Skillsbar langClass="html" percent={"80%"} language={"HTML"} />
-          <Skillsbar langClass="css" percent={"70%"} language={"CSS"} />
-          <Skillsbar
-            langClass="javascript"
-            percent={"50%"}
-            language={"Javascript"}
-          />
-          <Skillsbar langClass="jquery" percent={"30%"} language={"JQuery"} />
-          <Skillsbar langClass="reactjs" percent={"50%"} language={"Reactjs"} />
-        </div>
-        <div className="skills-right">
-          <Skillsbar langClass="python" percent={"50%"} language={"Python"} />
-          <Skillsbar langClass="flask" percent={"60%"} language={"Flask"} />
-          <Skillsbar
-            langClass="postgresql"
-            percent={"60%"}
-            language={"PostgreSQL"}
-          />
-          <Skillsbar langClass="mysql" percent={"60%"} language={"MySQL"} />
-          <Skillsbar langClass="php" percent={"30%"} language={"PHP"} />
-        </div>
+        <Skillsbar langClass="html" percent={"80%"} language={"HTML"} />
+        <Skillsbar langClass="css" percent={"70%"} language={"CSS"} />
+        <Skillsbar
+          langClass="javascript"
+          percent={"50%"}
+          language={"Javascript"}
+        />
+        <Skillsbar langClass="jquery" percent={"30%"} language={"JQuery"} />
+        <Skillsbar langClass="reactjs" percent={"50%"} language={"Reactjs"} />
+
+        <Skillsbar langClass="python" percent={"50%"} language={"Python"} />
+        <Skillsbar langClass="flask" percent={"60%"} language={"Flask"} />
+        <Skillsbar
+          langClass="postgresql"
+          percent={"60%"}
+          language={"PostgreSQL"}
+        />
+        <Skillsbar langClass="mysql" percent={"60%"} language={"MySQL"} />
+        <Skillsbar langClass="php" percent={"30%"} language={"PHP"} />
       </div>
     </div>
   );

@@ -30,7 +30,7 @@
   padding: 50px;
   display: flex;
   flex-direction: column;
-  /* align-content: center; */
+  align-content: center;
   justify-content: center;
   z-index: 1;
 }
@@ -50,7 +50,29 @@
 
 .profile-image {
   width: 70%;
-  /* height: 100%; */
   border-radius: 30% 0 0 0;
   object-fit: cover;
+}
+
+/* Mobile Screen Styling */
+/* Screen of 480px and below */
+
+@media only screen and (max-width: 480px) {
+  .h-intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .h-intro-left {
+    align-items: center;
+    flex: none;
+  }
+
+  .h-intro-left-wrapper {
+    padding: 20px;
+  }
+
+  .h-intro-right {
+    display: none;
+  }
 }

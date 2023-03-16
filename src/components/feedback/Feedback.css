@@ -55,3 +55,18 @@ textarea {
 .message-wrapper {
   margin-bottom: 10px;
 }
+
+/* Mobile Screen Styling */
+/* 480 and below */
+
+@media only screen and (max-width: 480px) {
+  .feedback {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  textarea,
+  .feedback-form input {
+    width: 100%;
+  }
+}

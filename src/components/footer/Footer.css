@@ -4,16 +4,25 @@
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  /* position: relative; */
+  padding-bottom: 30px;
 }
 
 .footer hr {
   width: 80%;
   margin: 0 auto;
+  margin-top: 15px;
 }
 
 .footer-copy {
   margin: 0 auto;
-  left: 45%;
-  top: 80%;
+  margin-top: 15px;
+}
+
+/* Mobile Device Screen Styling */
+/* All Mobile Screen Sizes */
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    margin-top: 70px;
+  }
 }

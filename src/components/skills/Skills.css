@@ -14,15 +14,9 @@
 }
 
 .skills-wrapper {
-  display: flex;
-}
-
-.skills-left {
-  flex: 1;
-}
-
-.skills-right {
-  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 15px;
 }
 
 /* Skillsbar Styling */
@@ -97,4 +91,16 @@
 .php {
   width: 30%;
   background-color: rgb(21, 35, 160);
+}
+
+/* Mobile Screen Styling */
+/* 480 and below */
+
+@media only screen and (max-width: 480px) {
+  .skills {
+    padding: 20px;
+  }
+  .skills-wrapper {
+    display: block;
+  }
 }

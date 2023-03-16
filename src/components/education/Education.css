@@ -22,7 +22,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: #3bb; */
 }
 
 .round {
@@ -95,4 +94,13 @@
   width: 20px;
   background-color: #000;
   border-radius: 50%;
+}
+
+/* Mobile Screen Styling */
+/* 480 and below */
+
+@media only screen and (max-width: 480px) {
+  .education {
+    padding: 20px;
+  }
 }
